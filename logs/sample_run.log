@@ -1,0 +1,15 @@
+[2026-11-15 19:15:00.012] [INFO] [System] Application initialized. Version: 1.0.0
+[2026-11-15 19:15:00.018] [INFO] [Config] Loaded configuration from configs/sample_config.json
+[2026-11-15 19:15:02.104] [INFO] [SerialComm] Port scan complete. Available ports: ['COM3', 'COM7']
+[2026-11-15 19:15:03.450] [INFO] [SerialComm] Connecting to COM3 at 115200 baud...
+[2026-11-15 19:15:03.520] [INFO] [SerialComm] Connection established.
+[2026-11-15 19:15:03.535] [DEBUG] [SerialComm] TX >> 0xAA 0x55 0x01 0x00 0x01 0x0A (PING)
+[2026-11-15 19:15:03.550] [DEBUG] [SerialComm] RX << 0xAA 0x55 0x81 0x05 0x46 0x57 0x2D 0x76 0x31 0x3E 0x0A (PONG: FW-v1.0.0)
+[2026-11-15 19:15:03.552] [INFO] [System] Handshake OK. Firmware responsive.
+[2026-11-15 19:15:10.005] [INFO] [TestController] Starting Test Profile: 'Standard 60s'
+[2026-11-15 19:15:10.010] [INFO] [DataLogger] Opened log file: logs/test_run_20261115_191510.csv
+[2026-11-15 19:15:10.015] [DEBUG] [TestController] TX >> 0xAA 0x55 0x02 0x02 0x00 0x3C 0x3E 0x0A (START_TEST: 60s)
+[2026-11-15 19:15:10.022] [DEBUG] [TestController] RX << 0xAA 0x55 0x80 0x02 0x02 0x00 0x80 0x0A (ACK: Command 0x02 OK)
+[2026-11-15 19:16:10.150] [INFO] [TestController] Sequence complete. Total samples collected: 600.
+[2026-11-15 19:16:10.155] [INFO] [ReportEngine] Mean: 24.98 mm | Peak-to-Peak: 0.14 mm | Result: PASS
+[2026-11-15 19:16:10.160] [INFO] [DataLogger] CSV file successfully saved and closed.

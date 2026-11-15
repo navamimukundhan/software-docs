@@ -1,0 +1,40 @@
+{
+  "system": {
+    "project_name": "Automated Hardware Test & Monitoring Station",
+    "version": "1.0.0",
+    "environment": "Production"
+  },
+  "communication": {
+    "default_port": "COM3",
+    "baud_rate": 115200,
+    "timeout_seconds": 2.0,
+    "auto_reconnect": true
+  },
+  "sampling": {
+    "sample_rate_ms": 100,
+    "buffer_size": 1000
+  },
+  "calibration": {
+    "channel_1": {
+      "name": "Load_Displacement",
+      "unit": "mm",
+      "offset": 0.000,
+      "gain": 0.001221,
+      "min_limit": 0.0,
+      "max_limit": 50.0
+    },
+    "channel_2": {
+      "name": "Ambient_Temperature",
+      "unit": "°C",
+      "offset": -10.000,
+      "gain": 0.050000,
+      "min_limit": 10.0,
+      "max_limit": 80.0
+    }
+  },
+  "logging": {
+    "auto_save_csv": true,
+    "log_directory": "./logs",
+    "filename_prefix": "test_run_"
+  }
+}
