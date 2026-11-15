@@ -1,8 +1,8 @@
 # Software Documentation & User Guide
 
-> **NIDAR 2**
-> **Repository / Codebase:** [Insert Git Repo URL or Local Path]  
-> **Documentation Maintainer: NAVAMI P M** [Your Name / Team Role]  
+> **Project Name:** NIDAR 2  
+> **Repository / Codebase:** https://github.com/navamimukundhan/software-docs  
+> **Documentation Maintainer:** Navami P M  
 > **Last Updated:** 2026-11-15  
 > **Status:** Active / Under Continuous Development
 

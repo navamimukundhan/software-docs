@@ -41,7 +41,7 @@ This checklist confirms that all software, documentation, firmware binaries, and
 
 | Role | Name | Signature / Approval | Date |
 | :--- | :--- | :--- | :--- |
-| **Documentation Maintainer** | *[Your Name]* | ___________________ | 2026-11-15 |
+| **Documentation Maintainer** | *Navami P M* | ___________________ | 2026-11-15 |
 | **PC Software Lead** | *[Name]* | ___________________ | 2026-11-15 |
 | **Firmware Lead** | *[Name]* | ___________________ | 2026-11-15 |
 | **System / Project Lead** | *[Name]* | ___________________ | 2026-11-15 |
